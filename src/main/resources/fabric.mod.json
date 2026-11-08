@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ante263",
+  "version": "${version}",
+  "name": "Anvil Never Too Expensive",
+  "description": "Removes the anvil Too Expensive level cap. Unofficial port of Anvil Never Too Expensive by tinytransfem (GPL-3.0-only) for Minecraft 26.3 (Fabric). See NOTICE for credit.",
+  "authors": ["Itamio", "tinytransfem"],
+  "contact": {
+    "homepage": "https://github.com/Sekai0NI0itamio/ANTE263",
+    "sources": "https://github.com/tinytransfem/AnvilNeverTooExpensive",
+    "issues": "https://github.com/Sekai0NI0itamio/ANTE263/issues"
+  },
+  "license": "GPL-3.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["itamio.ante.AnteMod"]
+  },
+  "mixins": ["ante263.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
