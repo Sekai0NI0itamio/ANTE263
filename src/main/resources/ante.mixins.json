@@ -3,6 +3,7 @@
   "minVersion": "0.8",
   "package": "itamio.ante.mixin",
   "compatibilityLevel": "JAVA_17",
+  "refmap": "ante.refmap.json",
   "mixins": ["AnvilMenuMixin"],
   "client": ["AnvilScreenMixin"],
   "injectors": {
