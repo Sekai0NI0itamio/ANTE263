@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="GPL-3.0-only"
+
+[[mods]]
+modId="ante"
+version="1.0.0"
+displayName="Anvil Never Too Expensive"
+credits="tinytransfem"
+authors="Itamio, tinytransfem"
+description='''Removes the anvil Too Expensive level cap. Unofficial NeoForge port of Anvil Never Too Expensive by tinytransfem (GPL-3.0-only). See NOTICE for credit and licensing.'''
+
+[[mixins]]
+config="ante.mixins.json"
+
+[[dependencies.ante]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[26.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ante]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.3]"
+    ordering="NONE"
+    side="BOTH"
