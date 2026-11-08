@@ -2,6 +2,7 @@ name: diag-anvil
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   diag:
